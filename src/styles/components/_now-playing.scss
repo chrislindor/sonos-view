@@ -2,18 +2,21 @@
   width: 25vw;
   height: 300px;
   background-color: $now-playing-bg-color;
-  & .header {
+  .header {
     background-color: $now-playing-header-bg-color;
     color: $white;
     display: flex;
     justify-content: center;
     padding: 15px 0;
   }
-  & .song-cont {
+  .song-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 75%;
+  }
+  .song-title {
+    font-size: 25px;
   }
 }
