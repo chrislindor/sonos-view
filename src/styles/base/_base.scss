@@ -1,0 +1,25 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  .fake_background {
+    position: fixed;
+    margin-top: -50vh;
+    width: 150vw;
+    z-index: -9999;
+    filter: blur(20px) opacity(.5);
+    background-color: $white;
+  }
+}

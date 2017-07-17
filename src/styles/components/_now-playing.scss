@@ -1,0 +1,19 @@
+.now_playing {
+  width: 25vw;
+  height: 300px;
+  background-color: $now-playing-bg-color;
+  & .header {
+    background-color: $now-playing-header-bg-color;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  & .song-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+  }
+}
